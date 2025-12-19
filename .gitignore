@@ -6,6 +6,7 @@ Cargo.lock
 # Node.js
 node_modules/
 npm-debug.log*
+package-lock.json
 
 # OS files
 .DS_Store
@@ -16,7 +17,6 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
-*~
 
 # Claude Code / Serena
 .claude/settings.local.json
