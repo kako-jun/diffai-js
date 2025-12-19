@@ -1,6 +1,6 @@
 {
   "name": "diffai-js",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Node.js bindings for diffai - AI/ML model diff tool for PyTorch, Safetensors, NumPy, MATLAB tensor comparison. Powered by Rust for blazing fast performance.",
   "keywords": [
     "diff",
@@ -88,11 +88,11 @@
     ]
   },
   "optionalDependencies": {
-    "diffai-js-linux-x64-gnu": "0.4.0",
-    "diffai-js-linux-x64-musl": "0.4.0",
-    "diffai-js-linux-arm64-gnu": "0.4.0",
-    "diffai-js-darwin-x64": "0.4.0",
-    "diffai-js-darwin-arm64": "0.4.0",
-    "diffai-js-win32-x64-msvc": "0.4.0"
+    "diffai-js-linux-x64-gnu": "0.4.1",
+    "diffai-js-linux-x64-musl": "0.4.1",
+    "diffai-js-linux-arm64-gnu": "0.4.1",
+    "diffai-js-darwin-x64": "0.4.1",
+    "diffai-js-darwin-arm64": "0.4.1",
+    "diffai-js-win32-x64-msvc": "0.4.1"
   }
 }
