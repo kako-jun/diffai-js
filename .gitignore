@@ -1,14 +1,32 @@
-# Claude Code
-.claude/settings.local.json
+# Build artifacts
+*.node
+target/
+Cargo.lock
 
-# OS
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# Editor
+# IDE/Editor
+.idea/
+.vscode/
 *.swp
 *.swo
 *~
-.idea/
-.vscode/
+
+# Claude Code / Serena
+.claude/settings.local.json
 .serena/
+
+# MCP config (local)
+.mcp.json
+
+# napi-rs artifacts
+npm/
+artifacts/
+index.d.ts
