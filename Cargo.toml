@@ -1,6 +1,6 @@
 [package]
 name = "diffai-js"
-version = "0.4.1"
+version = "0.5.0"
 edition = "2021"
 description = "JavaScript bindings for diffai - AI/ML model diff tool"
 license = "MIT"
@@ -12,7 +12,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 # Core diffai functionality
-diffai-core = "0.4"
+diffai-core = "0.5"
 
 # NAPI-RS for Node.js bindings
 napi = { version = "2.2", default-features = false, features = ["napi8", "serde-json"] }
